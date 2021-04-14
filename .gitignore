@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#BigModels
+BaggingClassifier (Ensamble)_HP_opti.joblib
