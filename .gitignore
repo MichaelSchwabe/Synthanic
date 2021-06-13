@@ -129,4 +129,7 @@ dmypy.json
 .pyre/
 
 #BigModels
-BaggingClassifier (Ensamble)_HP_opti.joblib
+models/BaggingClassifier (Ensamble)_HP_opti.joblib
+
+#Profiling
+profiling/*.html
