@@ -368,7 +368,7 @@ print(my_models)
 
 for i in range(len(my_models)):
     print('SAVE MODEL ' + str(my_models_name[i]) + ' .. ')
-    joblib.dump(my_models[i], str(my_models_name[i]) + "_HP_opti.joblib")
+    joblib.dump(my_models[i], "models/"+str(my_models_name[i]) + "_HP_opti.joblib")
     print('SAVE COMPLETE !')
 
 
@@ -414,7 +414,7 @@ plt.xlabel('False Positive Rate / Falsch erkannte Treffer')
 plt.ylabel('True Positive Rate / Richtig erkannte Treffer')
 plt.title('Receiver operating characteristic - ROC-Graph -> Optimierte Modelle')
 plt.legend(loc="lower right")
-plt.savefig('RF_ROC_opti3')
+plt.savefig('plots/RF_ROC_opti3.png')
 plt.show()
 
 
