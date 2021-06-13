@@ -3,7 +3,7 @@
 
 ###########################
 # Train and Optimized Models (non deep or neural learner) with an static
-# categorical dataset generated and preprocess from unsw. this Script will be generated an Bag of Classifier their all optimized.
+# categorical dataset generated and preprocess from synthanic KaggleChallange this Script will be generated an Bag of Classifier their all optimized.
 # the optimazation approach will be reach with a mixed Version of random- and gridsearch.
 # You must define a Range of used models by their definition and than you must define the range of Parameters where force and focus the optimization.
 #
